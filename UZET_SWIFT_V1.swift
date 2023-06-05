@@ -15,9 +15,9 @@ class UZETCreatePaymentLinkV1 {
     static func post(Product: String, Total: String, callback_url: String) {
         
         // this info's will get from your email README.pdf
-        let UZET_Url = URL(string: "https://213.136.74.225:2827/v313/uzet/api/V1/3zozz")!;
-        let UZET_Key   = "Yl7q4rXe3jyr05mB0LDAAxpzNU9r8amiBuCM3iyhqDPpmwLjBS";
-        let UZET_Email = "azozzalfiras@gmail.com";
+        let UZET_Url = URL(string: "")!;
+        let UZET_Key   = "";
+        let UZET_Email = "";
        
         
         let request = NSMutableURLRequest(url: UZET_Url)
